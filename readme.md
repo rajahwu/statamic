@@ -1,7 +1,6 @@
 # [Essential Statamic for PHP and Laravel Developer](https://www.linkedin.com/learning/essential-statamic-for-php-and-laravel-developers/)
 
-## LinkedIn Learning
-
+## LinkedIn Learning Course
 
 ### INSTRUCTOR: [Zuzana Kunckova](https://www.linkedin.com/learning/instructors/zuzana-kunckova)
 
