@@ -1,5 +1,7 @@
 # Installation
 
+**Last Updated:** April 8, 2024
+
 ## LAPP(n) Stack (Linux, Apache, PostgreSQL, PHP, (Node))
 
 ```bash
@@ -10,7 +12,7 @@ lsb_release -a # Output: Ubuntu 20.04.6 LTS
 apache2ctl -v # Output: Apache/2.4.41 (Ubuntu)
 
 # PostgreSQL
-psql --version # Output: PostgreSQL X.X.X
+psql --version # Output: (PostgreSQL) 12.18
 
 # PHP
 php --version # Output: PHP 8.2.17
@@ -40,9 +42,10 @@ composer create-project laravel/laravel:^10.0 [project_name] # statamic need lar
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
-DB_DATABASE=[database_name]
+DB_DATABASE=[database_name] # Replace [database_name] with your actual database name
 DB_USERNAME=postgres
-DB_PASSWORD=[password]
+DB_PASSWORD=[password] # Replace [password] with your actual database password
+
 ```
 
 ### Migrate
@@ -72,7 +75,7 @@ php artisan config:clear
     "post-autoload-dump": [
         "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
         // "@php artisan package:discover --ansi",
-        "@php artisan statamic:install --ansi",  # <-- Add this line
+        "@php artisan statamic:install --ansi",  # <-- Add this line (comment only)
         // "@php artisan statamic:search:update --all --ansi",
         // "@php artisan statamic:static:clear --ansi"
     ],
@@ -87,8 +90,8 @@ composer require statamic/cms --with-dependencies
 ### Add statamic [starter-kit](https://statamic.com/starter-kits)
 
 ```bash
-php please start-kit:install statamic/{package_name}
-npm i && npm run watch # build js and run server with watch flag
+php please start-kit:install statamic/{package_name} # Replace {package_name} with the name of the starter-kit
+npm i && npm run watch  # Build JavaScript and run server with watch flag
 ```
 
 
