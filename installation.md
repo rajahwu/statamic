@@ -28,7 +28,7 @@ Install [composer](https://getcomposer.org/)
 
 ## Statamic in Laravel 
 
-### Start Laravel Project
+### [Start Laravel Project](https://laravel.com/docs/11.x/installation)
 
 ```bash
 composer create-project laravel/laravel:^10.0 [project_name] # statamic need laravel version 10
@@ -57,7 +57,7 @@ php artisan migrate:fresh
 php artisan serve
 ```
 
-### Install Statamic
+### [Install Statamic](https://statamic.dev/installing)
 
 #### Clear config cache
 
@@ -72,7 +72,7 @@ php artisan config:clear
     "post-autoload-dump": [
         "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
         // "@php artisan package:discover --ansi",
-        "@php artisan statamic:install --ansi",  # Add this line
+        "@php artisan statamic:install --ansi",  # <-- Add this line
         // "@php artisan statamic:search:update --all --ansi",
         // "@php artisan statamic:static:clear --ansi"
     ],
