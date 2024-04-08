@@ -1,8 +1,12 @@
-# [Essential Statamic for PHP and Laravel Developer](https://www.linkedin.com/learning/essential-statamic-for-php-and-laravel-developers/)
+# Readme
 
-## LinkedIn Learning Course
+**Last Updated:** April 8, 2024
 
-### INSTRUCTOR: [Zuzana Kunckova](https://www.linkedin.com/learning/instructors/zuzana-kunckova)
+## [Essential Statamic for PHP and Laravel Developer](https://www.linkedin.com/learning/essential-statamic-for-php-and-laravel-developers/)
+
+### LinkedIn Learning Course
+
+#### INSTRUCTOR: [Zuzana Kunckova](https://www.linkedin.com/learning/instructors/zuzana-kunckova)
 
 Statamic, a flat-file content management system (CMS), offers developers the ability to create custom websites that are both easy to manage and beautiful. And because Statamic is built with PHP on top of Laravel, it is a natural fit for Laravel developers looking for an alternative to WordPress. In this course, join instructor Zuzana Kunckova as she covers the essentials of this versatile, full-featured CMS.
 
