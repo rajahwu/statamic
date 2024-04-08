@@ -19,14 +19,48 @@ php --version # Output: PHP 8.2.17
 
 # Node
 nvm use 18 # Output: Now using node v18.18.0 (npm v10.4.0)
+
+```
+
+Install [PHP & Required Models](https://www.php.net/)
+
+```bash
+sudo apt install php-common php-fpm php-json php-mbstring zip unzip php-zip php-cli php-xml php-tokenizer -y
 ```
 
 Install [composer](https://getcomposer.org/)
 
 ## Statamic Standalone (default)
 
+```bash
+composer create-project --prefer-dist statamic/statamic {site name} # Replace site name with actual site name 
+```
 
-## Statamic Standalone (w/ starter-kit)
+### Add db credentials to .env
+
+```sh
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=[database_name] # Replace [database_name] with your actual database name
+DB_USERNAME=postgres
+DB_PASSWORD=[password] # Replace [password] with your actual database password
+
+```
+
+### Migrate
+
+```bash
+php artisan migrate:fresh
+```
+
+## Statamic Standalone (add starter-kit)
+
+```bash
+# php please start-kit:install statamic/{package_name} # Replace {package_name} with the name of the starter-kit
+php please starter-kit:install statamic/starter-kit-starters-creek
+npm i && npm run watch  # Build JavaScript and run server with watch flag
+```
 
 ## Statamic in Laravel 
 
@@ -54,7 +88,6 @@ DB_PASSWORD=[password] # Replace [password] with your actual database password
 ```bash
 php artisan migrate:fresh
 ```
-
 ### Run server
 
 ```bash
