@@ -33,12 +33,13 @@ Install [composer](https://getcomposer.org/)
 ### [Start Laravel Project](https://laravel.com/docs/11.x/installation)
 
 ```bash
-composer create-project laravel/laravel:^10.0 [project_name] # statamic need laravel version 10
+# statamic needs laravel version 10
+composer create-project laravel/laravel:^10.0 [project_name] # Replace [project_name] with actual name of project
 ```
 
 ### Add db credentials to .env
 
-```
+```sh
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432

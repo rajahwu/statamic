@@ -12,4 +12,4 @@ Statamic, a flat-file content management system (CMS), offers developers the abi
 
 Zuzana steps through how to install Statamic, create users, and add and style content. She also shows how to work with Antlers, the templating engine that comes with Statamic, to fetch and filter content, as well as display and modify data on the front end. Plus, discover how to upload and deploy your very own Statamic website on Netlify, a free hosting service for web applications and static websites.
 
-[Installation](./installation.md)
+[Statamic Installation](./installation.md)
