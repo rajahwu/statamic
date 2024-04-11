@@ -1,0 +1,42 @@
+title: 'Image Block'
+fields:
+  -
+    handle: image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: Image
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: alt_text
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Alt text'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: credits
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Credits
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

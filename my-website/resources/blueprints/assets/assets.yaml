@@ -1,0 +1,24 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: alt
+            field:
+              type: text
+              display: 'Alt Text'
+              instructions: 'Description of the image'
+          -
+            handle: image_credit
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Image credit'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
